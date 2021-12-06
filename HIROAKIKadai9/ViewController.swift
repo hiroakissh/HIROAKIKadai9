@@ -8,12 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet private weak var selectLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+    @IBAction private func inputButton(_ sender: Any) {
+    }
 
 }
 

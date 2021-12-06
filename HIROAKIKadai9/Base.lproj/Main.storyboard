@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="45" y="71"/>
         </scene>
-        <!--View Controller-->
+        <!--Select View Controller-->
         <scene sceneID="6ib-l0-PYE">
             <objects>
-                <viewController id="CtV-yS-Hxg" sceneMemberID="viewController">
+                <viewController id="CtV-yS-Hxg" customClass="SelectViewController" customModule="HIROAKIKadai9" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bwX-HS-Dn4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

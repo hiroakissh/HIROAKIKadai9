@@ -13,6 +13,7 @@
 		5367FFBA275BB8F1006477BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5367FFB8275BB8F1006477BE /* Main.storyboard */; };
 		5367FFBC275BB8F2006477BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5367FFBB275BB8F2006477BE /* Assets.xcassets */; };
 		5367FFBF275BB8F2006477BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5367FFBD275BB8F2006477BE /* LaunchScreen.storyboard */; };
+		53D3771C275D994E0051762B /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D3771B275D994E0051762B /* SelectViewController.swift */; };
 		78A4B5556434E1A0267A1761 /* Pods_HIROAKIKadai9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E4B347069EA782B13F38FC /* Pods_HIROAKIKadai9.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		5367FFBB275BB8F2006477BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5367FFBE275BB8F2006477BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5367FFC0275BB8F2006477BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D3771B275D994E0051762B /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				5367FFB2275BB8F1006477BE /* AppDelegate.swift */,
 				5367FFB4275BB8F1006477BE /* SceneDelegate.swift */,
 				5367FFB6275BB8F1006477BE /* ViewController.swift */,
+				53D3771B275D994E0051762B /* SelectViewController.swift */,
 				5367FFB8275BB8F1006477BE /* Main.storyboard */,
 				5367FFBB275BB8F2006477BE /* Assets.xcassets */,
 				5367FFBD275BB8F2006477BE /* LaunchScreen.storyboard */,
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53D3771C275D994E0051762B /* SelectViewController.swift in Sources */,
 				5367FFB7275BB8F1006477BE /* ViewController.swift in Sources */,
 				5367FFB3275BB8F1006477BE /* AppDelegate.swift in Sources */,
 				5367FFB5275BB8F1006477BE /* SceneDelegate.swift in Sources */,

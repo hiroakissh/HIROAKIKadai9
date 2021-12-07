@@ -18,4 +18,15 @@ class SelectViewController: UIViewController {
     @IBAction private func cancelButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
+
+    @IBAction private func tokyoButton(_ sender: Any) {
+    }
+
+    @IBAction private func kanagawaButton(_ sender: Any) {
+    }
+    @IBAction private func saitamaButton(_ sender: Any) {
+    }
+
+    @IBAction private func chibaButton(_ sender: Any) {
+    }
 }

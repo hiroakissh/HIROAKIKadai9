@@ -84,6 +84,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="東京都"/>
+                                <connections>
+                                    <action selector="tokyoButton:" destination="CtV-yS-Hxg" eventType="touchUpInside" id="gD3-f9-2Rb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYF-wc-UFv">
                                 <rect key="frame" x="166" y="193" width="82" height="31"/>
@@ -93,6 +96,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="神奈川県"/>
+                                <connections>
+                                    <action selector="kanagawaButton:" destination="CtV-yS-Hxg" eventType="touchUpInside" id="6tD-y8-2XW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HvS-0G-0n7">
                                 <rect key="frame" x="173.5" y="232" width="67" height="31"/>
@@ -102,6 +108,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="埼玉県"/>
+                                <connections>
+                                    <action selector="saitamaButton:" destination="CtV-yS-Hxg" eventType="touchUpInside" id="ZBP-D6-zg3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4k-4Z-nCu">
                                 <rect key="frame" x="173.5" y="271" width="67" height="31"/>
@@ -111,6 +120,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="千葉県"/>
+                                <connections>
+                                    <action selector="chibaButton:" destination="CtV-yS-Hxg" eventType="touchUpInside" id="c49-UC-kxN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPn-1h-lq1">
                                 <rect key="frame" x="20" y="20" width="69" height="31"/>

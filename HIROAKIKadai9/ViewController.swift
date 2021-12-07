@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction private func inputButton(_ sender: Any) {
+        
     }
 
 }

@@ -17,9 +17,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="都道府県" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6TH-Pd-o2s">
-                                <rect key="frame" x="39" y="121" width="70" height="21"/>
+                                <rect key="frame" x="39" y="121" width="113" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="Qev-q7-ikF"/>
+                                    <constraint firstAttribute="width" constant="113" id="Qev-q7-ikF"/>
                                     <constraint firstAttribute="height" constant="21" id="eMP-D2-UDv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -27,10 +27,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBO-bb-GMc">
-                                <rect key="frame" x="309" y="115" width="53" height="31"/>
+                                <rect key="frame" x="309" y="115" width="85" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="2RX-pl-l5B"/>
-                                    <constraint firstAttribute="width" constant="53" id="xEv-aZ-qnD"/>
+                                    <constraint firstAttribute="height" constant="31" id="NYq-vo-uOR"/>
+                                    <constraint firstAttribute="width" constant="85" id="NyJ-D2-BOZ"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="入力"/>
@@ -38,11 +38,11 @@
                                     <segue destination="eOe-qe-OOZ" kind="presentation" id="yqB-UF-RtR"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未選択" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeI-VQ-9gp">
-                                <rect key="frame" x="181" y="121" width="52" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未選択" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeI-VQ-9gp">
+                                <rect key="frame" x="160" y="121" width="115" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Gh3-DX-7PW"/>
-                                    <constraint firstAttribute="width" constant="52" id="kDP-3d-r6f"/>
+                                    <constraint firstAttribute="height" constant="21" id="5K5-2F-xdz"/>
+                                    <constraint firstAttribute="width" constant="115" id="agM-eg-cQ4"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -52,12 +52,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="EeI-VQ-9gp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="77" id="10j-ku-Pri"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KBO-bb-GMc" secondAttribute="trailing" constant="52" id="Gqm-gw-sFO"/>
-                            <constraint firstItem="EeI-VQ-9gp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LTr-1w-WfJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KBO-bb-GMc" secondAttribute="trailing" constant="20" id="1QZ-wZ-tZO"/>
+                            <constraint firstItem="KBO-bb-GMc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="71" id="IdO-NX-rIU"/>
                             <constraint firstItem="6TH-Pd-o2s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="77" id="Xoh-cp-Yx6"/>
                             <constraint firstItem="6TH-Pd-o2s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="c31-lO-BCc"/>
-                            <constraint firstItem="KBO-bb-GMc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="71" id="tff-4s-bNO"/>
+                            <constraint firstItem="EeI-VQ-9gp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="10.5" id="eZa-D7-kHR"/>
+                            <constraint firstItem="EeI-VQ-9gp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="77" id="gpi-yd-aGd"/>
                         </constraints>
                     </view>
                     <connections>
@@ -66,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="687" y="71"/>
+            <point key="canvasLocation" x="686.95652173913049" y="70.982142857142847"/>
         </scene>
         <!--Select View Controller-->
         <scene sceneID="6ib-l0-PYE">
@@ -76,23 +76,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1Y-YD-kmK">
-                                <rect key="frame" x="173.5" y="210" width="67" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="67" id="DYB-n9-Nxd"/>
-                                    <constraint firstAttribute="height" constant="31" id="fhj-5S-eNl"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="東京都"/>
-                                <connections>
-                                    <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="tokyoButtonWithSegue:" id="LYU-bp-L6J"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYF-wc-UFv">
-                                <rect key="frame" x="166" y="249" width="82" height="31"/>
+                                <rect key="frame" x="153.5" y="249" width="107" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="2qn-pc-jQW"/>
-                                    <constraint firstAttribute="width" constant="82" id="jNK-Ls-mVN"/>
+                                    <constraint firstAttribute="width" constant="107" id="KbO-qb-Qrt"/>
+                                    <constraint firstAttribute="height" constant="31" id="feP-fj-qz7"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="神奈川県"/>
@@ -101,10 +89,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HvS-0G-0n7">
-                                <rect key="frame" x="173.5" y="288" width="67" height="31"/>
+                                <rect key="frame" x="161" y="288" width="92" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="67" id="hhq-Sd-kZw"/>
-                                    <constraint firstAttribute="height" constant="31" id="l31-zt-htU"/>
+                                    <constraint firstAttribute="height" constant="31" id="Ilj-Ol-4i5"/>
+                                    <constraint firstAttribute="width" constant="92" id="SJN-Lh-M5I"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="埼玉県"/>
@@ -113,10 +101,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4k-4Z-nCu">
-                                <rect key="frame" x="173.5" y="327" width="67" height="31"/>
+                                <rect key="frame" x="160.5" y="327" width="93" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="0Mr-WQ-Spl"/>
-                                    <constraint firstAttribute="width" constant="67" id="W4o-M5-qE2"/>
+                                    <constraint firstAttribute="height" constant="31" id="hqL-gg-134"/>
+                                    <constraint firstAttribute="width" constant="93" id="n9j-pM-xfK"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="千葉県"/>
@@ -136,20 +124,32 @@
                                     <action selector="cancelButton:" destination="CtV-yS-Hxg" eventType="touchUpInside" id="MkK-zP-LQz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1Y-YD-kmK">
+                                <rect key="frame" x="153.5" y="210" width="107" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="107" id="UHm-SY-JJs"/>
+                                    <constraint firstAttribute="height" constant="31" id="jXl-O8-EkV"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="東京都"/>
+                                <connections>
+                                    <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="tokyoButtonWithSegue:" id="LYU-bp-L6J"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="euA-l0-XQI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="B1Y-YD-kmK" firstAttribute="centerX" secondItem="bwX-HS-Dn4" secondAttribute="centerX" id="07O-MP-UHZ"/>
-                            <constraint firstItem="B1Y-YD-kmK" firstAttribute="top" secondItem="euA-l0-XQI" secondAttribute="top" constant="154" id="3th-mf-Gcj"/>
-                            <constraint firstItem="l4k-4Z-nCu" firstAttribute="centerX" secondItem="bwX-HS-Dn4" secondAttribute="centerX" id="53E-D1-mXR"/>
-                            <constraint firstItem="eYF-wc-UFv" firstAttribute="centerX" secondItem="bwX-HS-Dn4" secondAttribute="centerX" id="65T-UI-5Xd"/>
-                            <constraint firstItem="HvS-0G-0n7" firstAttribute="centerX" secondItem="bwX-HS-Dn4" secondAttribute="centerX" id="J4C-5Q-JYf"/>
-                            <constraint firstItem="eYF-wc-UFv" firstAttribute="top" secondItem="B1Y-YD-kmK" secondAttribute="bottom" constant="8" symbolic="YES" id="ad8-pt-ZuX"/>
+                            <constraint firstItem="HvS-0G-0n7" firstAttribute="centerX" secondItem="bwX-HS-Dn4" secondAttribute="centerX" id="4nw-3v-yoi"/>
+                            <constraint firstItem="l4k-4Z-nCu" firstAttribute="top" secondItem="HvS-0G-0n7" secondAttribute="bottom" constant="8" symbolic="YES" id="5I2-l7-DbH"/>
+                            <constraint firstItem="HvS-0G-0n7" firstAttribute="top" secondItem="eYF-wc-UFv" secondAttribute="bottom" constant="8" symbolic="YES" id="8sO-PJ-Umf"/>
+                            <constraint firstItem="eYF-wc-UFv" firstAttribute="top" secondItem="B1Y-YD-kmK" secondAttribute="bottom" constant="8" symbolic="YES" id="9hG-ZT-zm4"/>
+                            <constraint firstItem="l4k-4Z-nCu" firstAttribute="centerX" secondItem="bwX-HS-Dn4" secondAttribute="centerX" id="G1A-V0-8sN"/>
+                            <constraint firstItem="eYF-wc-UFv" firstAttribute="centerX" secondItem="bwX-HS-Dn4" secondAttribute="centerX" id="Xio-Ix-oUh"/>
+                            <constraint firstItem="B1Y-YD-kmK" firstAttribute="top" secondItem="euA-l0-XQI" secondAttribute="top" constant="154" id="eZt-j4-g7H"/>
                             <constraint firstItem="oPn-1h-lq1" firstAttribute="top" secondItem="euA-l0-XQI" secondAttribute="top" constant="20" id="fcD-9F-YPz"/>
                             <constraint firstItem="oPn-1h-lq1" firstAttribute="leading" secondItem="euA-l0-XQI" secondAttribute="leading" constant="20" id="fxO-9H-4dZ"/>
-                            <constraint firstItem="l4k-4Z-nCu" firstAttribute="top" secondItem="HvS-0G-0n7" secondAttribute="bottom" constant="8" symbolic="YES" id="oGj-8s-3aY"/>
-                            <constraint firstItem="HvS-0G-0n7" firstAttribute="top" secondItem="eYF-wc-UFv" secondAttribute="bottom" constant="8" symbolic="YES" id="yIB-ac-xmi"/>
+                            <constraint firstItem="B1Y-YD-kmK" firstAttribute="centerX" secondItem="bwX-HS-Dn4" secondAttribute="centerX" id="xOh-MT-hz2"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Dlp-go-Ab0"/>

@@ -85,7 +85,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="神奈川県"/>
                                 <connections>
-                                    <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="kanagawaButtonWithSegue:" id="DYy-YM-t55"/>
+                                    <action selector="areaButton:" destination="CtV-yS-Hxg" eventType="touchUpInside" id="Fvw-cO-BFY"/>
+                                    <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="selectAreaWithSegue:" id="uyr-vp-3ry"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HvS-0G-0n7">
@@ -97,7 +98,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="埼玉県"/>
                                 <connections>
-                                    <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="saitamaButtonWithSegue:" id="Dfm-5Y-ZIg"/>
+                                    <action selector="areaButton:" destination="CtV-yS-Hxg" eventType="touchUpInside" id="IBE-mh-toF"/>
+                                    <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="selectAreaWithSegue:" id="LLf-hQ-EXA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4k-4Z-nCu">
@@ -109,7 +111,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="千葉県"/>
                                 <connections>
-                                    <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="chibaButtonWithSegue:" id="5Lc-wW-JE0"/>
+                                    <action selector="areaButton:" destination="CtV-yS-Hxg" eventType="touchUpInside" id="UAp-aF-b3u"/>
+                                    <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="selectAreaWithSegue:" id="lLP-oM-YZD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPn-1h-lq1">
@@ -121,7 +124,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Cancel"/>
                                 <connections>
-                                    <action selector="cancelButton:" destination="CtV-yS-Hxg" eventType="touchUpInside" id="MkK-zP-LQz"/>
+                                    <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="exitCancelWithSegue:" id="Aj9-RV-cRq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1Y-YD-kmK">
@@ -133,7 +136,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="東京都"/>
                                 <connections>
-                                    <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="tokyoButtonWithSegue:" id="LYU-bp-L6J"/>
+                                    <action selector="areaButton:" destination="CtV-yS-Hxg" eventType="touchUpInside" id="RCO-4R-Al4"/>
+                                    <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="selectAreaWithSegue:" id="Hp3-pF-wje"/>
                                 </connections>
                             </button>
                         </subviews>

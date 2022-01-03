@@ -8,12 +8,9 @@
 import UIKit
 
 class SelectViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    var selectArea: String?
 
-        // Do any additional setup after loading the view.
-    }
-    @IBAction private func cancelButton(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+    @IBAction private func areaButton(_ sender: UIButton) {
+        selectArea = sender.currentTitle
     }
 }

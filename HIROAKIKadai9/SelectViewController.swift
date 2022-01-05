@@ -8,6 +8,8 @@
 import UIKit
 
 class SelectViewController: UIViewController {
+
+
     var selectArea: String?
 
     @IBAction private func areaButton(_ sender: UIButton) {

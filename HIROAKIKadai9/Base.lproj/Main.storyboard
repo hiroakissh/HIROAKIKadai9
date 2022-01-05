@@ -82,8 +82,8 @@
                                     <constraint firstAttribute="width" constant="107" id="KbO-qb-Qrt"/>
                                     <constraint firstAttribute="height" constant="31" id="feP-fj-qz7"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="神奈川県"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="神奈川県"/>
                                 <connections>
                                     <action selector="areaButton:" destination="CtV-yS-Hxg" eventType="touchUpInside" id="Fvw-cO-BFY"/>
                                     <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="selectAreaWithSegue:" id="uyr-vp-3ry"/>
@@ -95,8 +95,8 @@
                                     <constraint firstAttribute="height" constant="31" id="Ilj-Ol-4i5"/>
                                     <constraint firstAttribute="width" constant="92" id="SJN-Lh-M5I"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="埼玉県"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="埼玉県"/>
                                 <connections>
                                     <action selector="areaButton:" destination="CtV-yS-Hxg" eventType="touchUpInside" id="IBE-mh-toF"/>
                                     <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="selectAreaWithSegue:" id="LLf-hQ-EXA"/>
@@ -108,8 +108,8 @@
                                     <constraint firstAttribute="height" constant="31" id="hqL-gg-134"/>
                                     <constraint firstAttribute="width" constant="93" id="n9j-pM-xfK"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="千葉県"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="千葉県"/>
                                 <connections>
                                     <action selector="areaButton:" destination="CtV-yS-Hxg" eventType="touchUpInside" id="UAp-aF-b3u"/>
                                     <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="selectAreaWithSegue:" id="lLP-oM-YZD"/>
@@ -133,8 +133,8 @@
                                     <constraint firstAttribute="width" constant="107" id="UHm-SY-JJs"/>
                                     <constraint firstAttribute="height" constant="31" id="jXl-O8-EkV"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="東京都"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="東京都"/>
                                 <connections>
                                     <action selector="areaButton:" destination="CtV-yS-Hxg" eventType="touchUpInside" id="RCO-4R-Al4"/>
                                     <segue destination="ASQ-8X-Y1j" kind="unwind" unwindAction="selectAreaWithSegue:" id="Hp3-pF-wje"/>

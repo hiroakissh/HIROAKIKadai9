@@ -10,15 +10,9 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet private weak var selectLabel: UILabel!
 
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//    }
-
     @IBAction private func selectArea(segue: UIStoryboardSegue) {
         let selectVC = segue.source as? SelectViewController
-        let select = selectVC?.selectArea
-
-        selectLabel.text = select
+        selectLabel.text = selectVC?.selectedArea
     }
 
     @IBAction private func exitCancel(segue: UIStoryboardSegue) {

@@ -9,9 +9,9 @@ import UIKit
 
 class SelectViewController: UIViewController {
 
-    var selectArea: String?
+    private(set) var selectedArea: String?
 
     @IBAction private func areaButton(_ sender: UIButton) {
-        selectArea = sender.currentTitle
+        selectedArea = sender.currentTitle
     }
 }
